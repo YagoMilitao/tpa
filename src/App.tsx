@@ -127,7 +127,7 @@ export default function App() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-20"
+          className="fixed bottom-16 left-1/2 transform -translate-x-1/2 z-20"
         >
           <p className="text-white/70 text-sm text-center">
             Role para navegar entre os círculos

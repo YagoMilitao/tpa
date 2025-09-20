@@ -25,7 +25,7 @@ export const NewUsersSection = ({ users }: NewUsersSectionProps) => {
             {/* Badge NEW */}
             <div className="
               absolute 
-              -top-6 
+              -top-8 
               left-1/2 
               transform 
               -translate-x-1/2 
