@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NEW badge */
+.badge-new {
+  @apply absolute -top-2 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-sm text-xs font-bold;
+  background: #ef4444; /* red */
+  color: #f59e0b;      /* yellow text */
+}
+
+/* status dot */
+.status-dot {
+  @apply w-3 h-3 rounded-full ring-2 ring-white shadow-sm;
+}
+
+/* more indicator */
+.more-indicator {
+  @apply flex items-center justify-center rounded-full bg-gray-800 text-white text-sm font-semibold;
+}
