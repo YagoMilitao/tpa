@@ -96,8 +96,14 @@ export default function App() {
         </AnimatePresence>
 
         {/* Indicadores de navegação */}
-        <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-20">
-          <div className="flex flex-col gap-2">
+        <div
+          className="
+            fixed z-20 transform
+            bottom-6 left-1/2 -translate-x-1/2
+            md:bottom-auto md:left-auto md:right-4 md:top-1/2 md:translate-x-0 md:-translate-y-1/2
+          "
+        >
+          <div className="flex gap-2 flex-row md:flex-col">
             {circles.map((_, index) => (
               <motion.button
                 key={index}
