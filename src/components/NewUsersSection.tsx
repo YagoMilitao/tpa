@@ -13,10 +13,10 @@ export const NewUsersSection = ({ users }: NewUsersSectionProps) => {
 
   return (
     <motion.div
-      initial={{ y: 20, opacity: 0 }}
+      initial={{ y: 40, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.2 }}
-      className="fixed top-20 left-4 right-4 z-10"
+      className="fixed top-24 left-4 right-4 z-10"
     >
       <div className="flex items-center justify-center gap-4">
         {/* Usuários visíveis com badge NEW */}
